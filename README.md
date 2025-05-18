@@ -13,16 +13,16 @@
   This hook manages all the logic for accessing the user's geolocation.  
 
 #### State Variables:
-  error: Stores any error messages (e.g., if geolocation is not supported or permission is denied).
-  isLoading: Boolean indicating if the app is currently fetching the user's position.
-  position: An object storing the user's latitude (lat) and longitude (lng).
+  error: Stores any error messages (e.g., if geolocation is not supported or permission is denied).    
+  isLoading: Boolean indicating if the app is currently fetching the user's position.    
+  position: An object storing the user's latitude (lat) and longitude (lng).    
 #### Function:
-  getPosition():
-  Checks if geolocation is supported.
-  Sets loading state.
-  Calls navigator.geolocation.getCurrentPosition to fetch the user's location.
-  On success, updates the position state.
-  On error, updates the error state.
+  getPosition():  
+  Checks if geolocation is supported.   
+  Sets loading state.  
+  Calls navigator.geolocation.getCurrentPosition to fetch the user's location.   
+  On success, updates the position state.  
+  On error, updates the error state.   
 
 #### Return Value:  
  Returns an object containing getPosition, error, isLoading, and position.  
